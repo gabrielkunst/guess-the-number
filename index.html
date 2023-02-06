@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Descrubra o Número</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header  -->
+    <header>
+      <h1 class="header__title">Descubra o número!</h1>
+      <p class="header__warning">(Entre 1 e 100)</p>
+      <button class="btn btn--again">Tente Novamente</button>
+      <div class="number">?</div>
+    </header>
+    <!-- main content -->
+    <main>
+      <!-- left section -->
+      <section class="section section--left">
+        <div class="section__input">
+          <input type="number" class="guess" />
+          <button class="btn btn--check">Verificar</button>
+        </div>
+      </section>
+
+      <!-- right section -->
+      <section class="section section--right">
+        <div class="section__text">
+          <h2 class="message">Insira um número...</h2>
+          <p class="score">💯 Score: <span class="score-value">10</span></p>
+          <p class="highscore">
+            🎖️ Highscore: <span class="highscore-value">0</span>
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
